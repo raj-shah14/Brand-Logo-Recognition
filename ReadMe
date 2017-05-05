@@ -1,0 +1,25 @@
+Docuementation
+==============
+This code takes the input of an image from a testset, and returns which logo is present in the image.
+It also saves the resultant image inside the result folder.
+
+Libraries
+=========
+You will need opencv_contrib lib installed with your opencv.
+You can do that by visiting "http://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html"
+
+Software Version
+================
+Python 2.7
+
+How to run
+==========
+Once you have installed the library, go to the CVProject folder, first open "main.py" file. Next, in the same directory there is another folder by the name testset which contains images to test. You can add the images to test in that folder.
+Currently there are around 70 images in the testset. Make sure you add correct path on line 39
+onwards in main.py. The project contains a folder IdealLogos which contains logos of different brands.
+This is an important step, make sure you correctly add path to the individual logo.
+
+Once you run the code the result gets saved to the "result" folder in the same CVProject directory.
+Make sure to add correct path for result folder on line 125 of the code as well.
+
+
